@@ -1,4 +1,4 @@
-package pessoa.model;
+package tenant.model;
 
 import java.util.HashSet;
 import java.util.Set;

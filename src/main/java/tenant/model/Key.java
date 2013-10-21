@@ -1,4 +1,4 @@
-package pessoa.model;
+package tenant.model;
 
 import org.springframework.data.annotation.Id;
 
