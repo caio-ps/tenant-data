@@ -6,7 +6,7 @@ public class Key {
 
 	@Id
 	private String id;
-	private Long tenantCode;
+	private Long codigoTenant;
 
 	public String getId() {
 		return id;
@@ -16,12 +16,11 @@ public class Key {
 		this.id = id;
 	}
 
-	public Long getTenantCode() {
-		return tenantCode;
+	public Long getCodigoTenant() {
+		return codigoTenant;
 	}
 
-	public void setTenantCode(Long tenantCode) {
-		this.tenantCode = tenantCode;
+	public void setCodigoTenant(Long codigoTenant) {
+		this.codigoTenant = codigoTenant;
 	}
-
 }

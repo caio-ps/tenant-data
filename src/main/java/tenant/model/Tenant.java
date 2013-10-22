@@ -5,6 +5,7 @@ import java.util.Set;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import tenant.enumeration.StatusTenant;
 import tenant.enumeration.TipoTenant;
 
 @Document(collection = "tenants")
@@ -13,6 +14,8 @@ public class Tenant extends Key {
 	private String descricao;
 	private Set<String> administradores;
 	private TipoTenant tipo;
+	private StatusTenant status;
+	private Long numeroDePessoas;
 
 	public String getDescricao() {
 		return descricao;
@@ -39,5 +42,21 @@ public class Tenant extends Key {
 
 	public void setAdministradores(Set<String> administradores) {
 		this.administradores = administradores;
+	}
+
+	public StatusTenant getStatus() {
+		return status;
+	}
+
+	public void setStatus(StatusTenant status) {
+		this.status = status;
+	}
+
+	public Long getNumeroDePessoas() {
+		return numeroDePessoas;
+	}
+
+	public void setNumeroDePessoas(Long numeroDePessoas) {
+		this.numeroDePessoas = numeroDePessoas;
 	}
 }
