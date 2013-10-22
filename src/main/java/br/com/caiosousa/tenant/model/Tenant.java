@@ -1,12 +1,13 @@
-package tenant.model;
+package br.com.caiosousa.tenant.model;
 
 import java.util.HashSet;
 import java.util.Set;
 
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import tenant.enumeration.StatusTenant;
-import tenant.enumeration.TipoTenant;
+import br.com.caiosousa.tenant.enumeration.StatusTenant;
+import br.com.caiosousa.tenant.enumeration.TipoTenant;
+
 
 @Document(collection = "tenants")
 public class Tenant extends Key {

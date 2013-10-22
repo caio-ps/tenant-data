@@ -1,4 +1,4 @@
-package tenant.enumeration;
+package br.com.caiosousa.tenant.enumeration;
 
 public enum Grupo {
 

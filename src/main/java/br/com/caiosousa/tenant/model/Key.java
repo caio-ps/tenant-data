@@ -1,4 +1,4 @@
-package tenant.model;
+package br.com.caiosousa.tenant.model;
 
 import org.springframework.data.annotation.Id;
 
